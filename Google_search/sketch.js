@@ -1,7 +1,7 @@
 let bg;
 let r;
 let folder = "Assets/";
-let bracnh = "Digital_culture/";
+let branch = "Digital_culture/";
 let project = "Google_search/";
 let bi = "BI/";
 let bs = "BS/";
