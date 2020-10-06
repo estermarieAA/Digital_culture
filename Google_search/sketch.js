@@ -1,7 +1,7 @@
 let bg;
 let r;
 let folder = "Assets/";
-let branch = "Digital_culture/";
+let br = "Digital_culture/";
 let project = "Google_search/";
 let b = "Background/";
 let backgroundname = "Tomgoogle";
@@ -24,7 +24,7 @@ let n = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27
 
 function preload(){
 
-  bg = loadImage(branch + project + folder + b + backgroundname +endi);
+  bg = loadImage(br + project + folder + b + backgroundname +endi);
 
 }
 
@@ -36,28 +36,28 @@ background(bg);
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadImage(branch + project + folder + bi+ namei + i + endi)
+    j = loadImage(br + project + folder + bi+ namei + i + endi)
     append(images,j)
   }
 }
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadSound(branch + project +folder + bs+ names + i + ends)
+    j = loadSound(br + project +folder + bs+ names + i + ends)
     append(sounds,j)
   }
 }
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadImage(branch + project +folder + ii+ nameii + i + endi)
+    j = loadImage(br + project +folder + ii+ nameii + i + endi)
     append(images,j)
   }
 }
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadSound(branch + project +folder + ss+ namess + i + ends)
+    j = loadSound(br + project +folder + ss+ namess + i + ends)
     append(sounds,j)
   }
 }
