@@ -4,7 +4,7 @@ let folder = "Assets/";
 let br = "Digital_culture/";
 let project = "Google_search/";
 let b = "Background/";
-let backgroundname = "Tomgoogle";
+let backgroundname = "Tomgoogle.png";
 let bi = "BI/";
 let bs = "BS/";
 let ii = "I/";
@@ -24,7 +24,7 @@ let n = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27
 
 function preload(){
 
-  bg = loadImage(br + project + folder + b + backgroundname +endi);
+  bg = loadImage(br + project + folder + b + backgroundname);
 
 }
 
