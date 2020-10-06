@@ -1,7 +1,7 @@
 let bg;
 let r;
 let folder = "Assets/";
-let branch = "Digital_culture/";
+let b = "Digital_culture/";
 let project = "Google_search/";
 let bi = "BI/";
 let bs = "BS/";
@@ -34,28 +34,28 @@ background(bg);
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadImage(branch + project + folder + bi+ namei + i + endi)
+    j = loadImage(b + project + folder + bi+ namei + i + endi)
     append(images,j)
   }
 }
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadSound(branch + project +folder + bs+ names + i + ends)
+    j = loadSound(b + project +folder + bs+ names + i + ends)
     append(sounds,j)
   }
 }
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadImage(branch + project +folder + ii+ nameii + i + endi)
+    j = loadImage(b + project +folder + ii+ nameii + i + endi)
     append(images,j)
   }
 }
 
 for(let i=1; i<=50; i++){
   for( let j=0; j<=49; j++){
-    j = loadSound(branch + project +folder + ss+ namess + i + ends)
+    j = loadSound(b + project +folder + ss+ namess + i + ends)
     append(sounds,j)
   }
 }
